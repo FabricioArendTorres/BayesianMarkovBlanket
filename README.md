@@ -7,7 +7,8 @@ Kaufmann, Dinu, et al. "Bayesian markov blanket estimation." Artificial Intellig
 </i>
 
 For installing the dependencies, run:
-  pip install Cython==0.28.4  
-  pip install numpy==1.14.5
-  pip install -r requirements.txt
+
+    pip install Cython==0.28.4  
+    pip install numpy==1.14.5
+    pip install -r requirements.txt
   
