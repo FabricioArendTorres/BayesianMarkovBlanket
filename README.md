@@ -12,3 +12,7 @@ For installing the dependencies, run:
     pip install numpy==1.14.5
     pip install -r requirements.txt
   
+An example for small networks can be run with
+
+    ./example.py
+which creates the output file <i>example.html</i>.
