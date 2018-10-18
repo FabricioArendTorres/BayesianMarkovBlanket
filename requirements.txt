@@ -1,0 +1,12 @@
+Cython==0.28.4
+CythonGSL==0.2.2
+gsl==0.0.3
+matplotlib==2.2.2
+networkx==2.1
+numpy==1.14.5
+pandas==0.23.3
+scipy==1.1.0
+seaborn==0.9.0
+bokeh==0.13.0
+-e git+https://git@github.com/FabricioArendTorres/gig.git@3ba70f5f4895dd62d872c220aed240fbaf0266f7#egg=gig
+-e 'git+https://git@github.com/JonasWallin/rtnorm.git#egg=rtnorm&subdirectory=python/rtnorm' 
