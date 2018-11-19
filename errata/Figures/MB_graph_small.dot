@@ -1,0 +1,10 @@
+graph G {
+    a -- b
+    c -- a
+    c -- b
+    b -- h
+    a[shape=circle]
+    b[shape=circle]
+    c[shape=circle]
+    h[shape=circle]
+}

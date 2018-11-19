@@ -1,0 +1,23 @@
+\chapter{Abstract}
+
+
+Learning sparse dependency structures between multiple variables is very crucial in many
+application areas of biology and personalized medicine.
+In this thesis, we focus particularly on HIV, where the aim is to identify interactions between the viral genotype and multiple phenotype variables.
+\gls{BMB} estimation allows us to only reconstruct a sparse dependency subnetwork of interest, 
+namely the interactions between the viral genotype and corresponding phenotype variables.
+Via Markov Chain Monte Carlo sampling, the BMB provides the full posterior distribution.
+However, we are mostly interested in the mode of the posterior distribution.
+Finding the mode of a high dimensional empirical distribution would require multidimensional 
+density estimation, which is known to suffer from the curse of dimensionality.
+%Additionally, the sampler spends a lot of time in regions of lower interest if the mode is not surrounded by a lot of probability mass.
+In order to correct for this shortcoming, we extend the Markov Blanket estimation by introducing Simulated Annealing to the models Gibbs sampler, which allows us to approximately sample from the set of global maxima.
+Compared to a non-Bayesian approach, it has the advantage of still being able to provide information about the underlying distribution.
+
+Our approach is evaluated on artificial data and compared to both the original BMB and the Graphical LASSO.
+In addition, we applied it on data from the SystemsX.ch HIV-X cohort.
+While the Annealing is not able to compete with the GLASSO on synthetic data,
+it shows similar performance to the BMB while being more robust \& convenient for model selection when applied on the HIV-X data.
+
+Furthermore, the behavior and modality of the models posterior distribution in relation to the hyperparameter is experimentally analyzed.
+We demonstrate that the marginal posterior of the Markov Blanket gets multi-modal if not enough sparsity is enforced.

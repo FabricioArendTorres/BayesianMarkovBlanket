@@ -1,0 +1,454 @@
+\begin{thebibliography}{65}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abramson et~al.(1999)Abramson, Krishnamoorthy, Dang,
+  et~al.]{abramson1999simulated}
+D.~Abramson, M.~Krishnamoorthy, H.~Dang, et~al.
+\newblock Simulated annealing cooling schedules for the school timetabling
+  problem.
+\newblock \emph{Asia Pacific Journal of Operational Research}, 16:\penalty0
+  1--22, 1999.
+
+\bibitem[Adametz et~al.(2014)Adametz, Rey, and Roth]{adametz2014information}
+D.~Adametz, M.~Rey, and V.~Roth.
+\newblock Information bottleneck for pathway-centric gene expression analysis.
+\newblock In \emph{German Conference on Pattern Recognition}, pages 81--91.
+  Springer, 2014.
+
+\bibitem[Alimonti et~al.(2003)Alimonti, Ball, and
+  Fowke]{alimonti2003mechanisms}
+J.~B. Alimonti, T.~B. Ball, and K.~R. Fowke.
+\newblock Mechanisms of cd4+ t lymphocyte cell death in human immunodeficiency
+  virus infection and aids.
+\newblock \emph{Journal of general Virology}, 84\penalty0 (7):\penalty0
+  1649--1661, 2003.
+
+\bibitem[Andrieu and Doucet(2000)]{andrieu2000simulated}
+C.~Andrieu and A.~Doucet.
+\newblock Simulated annealing for maximum a posteriori parameter estimation of
+  hidden markov models.
+\newblock \emph{IEEE Transactions on Information Theory}, 46\penalty0
+  (3):\penalty0 994--1004, 2000.
+
+\bibitem[Andrieu et~al.(2003)Andrieu, De~Freitas, Doucet, and
+  Jordan]{andrieu2003introduction}
+C.~Andrieu, N.~De~Freitas, A.~Doucet, and M.~I. Jordan.
+\newblock An introduction to mcmc for machine learning.
+\newblock \emph{Machine learning}, 50\penalty0 (1-2):\penalty0 5--43, 2003.
+
+\bibitem[Baldi et~al.(2000)Baldi, Brunak, Chauvin, Andersen, and
+  Nielsen]{baldi2000assessing}
+P.~Baldi, S.~Brunak, Y.~Chauvin, C.~A. Andersen, and H.~Nielsen.
+\newblock Assessing the accuracy of prediction algorithms for classification:
+  an overview.
+\newblock \emph{Bioinformatics}, 16\penalty0 (5):\penalty0 412--424, 2000.
+
+\bibitem[Bartlett et~al.(2001)Bartlett, DeMasi, Quinn, Moxham, and
+  Rousseau]{bartlett2001overview}
+J.~A. Bartlett, R.~DeMasi, J.~Quinn, C.~Moxham, and F.~Rousseau.
+\newblock Overview of the effectiveness of triple combination therapy in
+  antiretroviral-naive hiv-1 infected adults.
+\newblock \emph{Aids}, 15\penalty0 (11):\penalty0 1369--1377, 2001.
+
+\bibitem[Bernadac(1995)]{bernadac_random_1995}
+E.~Bernadac.
+\newblock Random continued fractions and inverse {Gaussian} distribution on a
+  symmetric cone.
+\newblock \emph{Journal of Theoretical Probability}, 8\penalty0 (2):\penalty0
+  221--259, Apr. 1995.
+\newblock ISSN 0894-9840, 1572-9230.
+\newblock \doi{10.1007/BF02212879}.
+
+\bibitem[Bishop(2006)]{Bishop:2006:PRM:1162264}
+C.~M. Bishop.
+\newblock \emph{Pattern Recognition and Machine Learning (Information Science
+  and Statistics)}.
+\newblock Springer-Verlag, Berlin, Heidelberg, 2006.
+\newblock ISBN 0387310738.
+
+\bibitem[Butler(1998)]{butler_generalized_1998}
+R.~W. Butler.
+\newblock Generalized {Inverse} {Gaussian} {Distributions} and their {Wishart}
+  {Connections}.
+\newblock \emph{Scandinavian Journal of Statistics}, 25\penalty0 (1):\penalty0
+  69--75, Mar. 1998.
+\newblock ISSN 1467-9469.
+\newblock \doi{10.1111/1467-9469.00089}.
+\newblock URL
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9469.00089}.
+
+\bibitem[Chaisson et~al.(1998)Chaisson, Gallant, Keruly, and
+  Moore]{chaisson1998impact}
+R.~E. Chaisson, J.~E. Gallant, J.~C. Keruly, and R.~D. Moore.
+\newblock Impact of opportunistic disease on survival in patients with hiv
+  infection.
+\newblock \emph{Aids}, 12\penalty0 (1):\penalty0 29--33, 1998.
+
+\bibitem[Chopin(2011)]{chopin2011fast}
+N.~Chopin.
+\newblock Fast simulation of truncated gaussian distributions.
+\newblock \emph{Statistics and Computing}, 21\penalty0 (2):\penalty0 275--288,
+  2011.
+
+\bibitem[Dagpunar(1989)]{dagpunar1989easily}
+J.~Dagpunar.
+\newblock An easily implemented generalised inverse gaussian generator.
+\newblock \emph{Communications in Statistics-Simulation and Computation},
+  18\penalty0 (2):\penalty0 703--710, 1989.
+
+\bibitem[Dempster(1972)]{dempster1972covariance}
+A.~P. Dempster.
+\newblock Covariance selection.
+\newblock \emph{Biometrics}, pages 157--175, 1972.
+
+\bibitem[Doyon et~al.(2005)Doyon, Tremblay, Bourgon, Wardrop, and
+  Cordingley]{doyon2005selection}
+L.~Doyon, S.~Tremblay, L.~Bourgon, E.~Wardrop, and M.~G. Cordingley.
+\newblock Selection and characterization of hiv-1 showing reduced
+  susceptibility to the non-peptidic protease inhibitor tipranavir.
+\newblock \emph{Antiviral research}, 68\penalty0 (1):\penalty0 27--35, 2005.
+
+\bibitem[Fazayeli and Banerjee(2016)]{fazayeli2016matrix}
+F.~Fazayeli and A.~Banerjee.
+\newblock The matrix generalized inverse gaussian distribution: Properties and
+  applications.
+\newblock In \emph{Joint European Conference on Machine Learning and Knowledge
+  Discovery in Databases}, pages 648--664. Springer, 2016.
+
+\bibitem[Foygel and Drton(2010)]{foygel2010extended}
+R.~Foygel and M.~Drton.
+\newblock Extended bayesian information criteria for gaussian graphical models.
+\newblock In \emph{Advances in neural information processing systems}, pages
+  604--612, 2010.
+
+\bibitem[Friedman et~al.(2008)Friedman, Hastie, and
+  Tibshirani]{friedman_sparse_2008}
+J.~Friedman, T.~Hastie, and R.~Tibshirani.
+\newblock Sparse inverse covariance estimation with the graphical lasso.
+\newblock \emph{Biostatistics}, 9\penalty0 (3):\penalty0 432--441, July 2008.
+\newblock ISSN 1465-4644, 1468-4357.
+\newblock \doi{10.1093/biostatistics/kxm045}.
+\newblock URL
+  \url{https://academic.oup.com/biostatistics/article-lookup/doi/10.1093/biostatistics/kxm045}.
+
+\bibitem[Geman and Geman(1984)]{geman1984stochastic}
+S.~Geman and D.~Geman.
+\newblock Stochastic relaxation, gibbs distributions, and the bayesian
+  restoration of images.
+\newblock \emph{IEEE Transactions on pattern analysis and machine
+  intelligence}, \penalty0 (6):\penalty0 721--741, 1984.
+
+\bibitem[Gentle(2009)]{gentle2009computational}
+J.~E. Gentle.
+\newblock \emph{Computational statistics}, volume 308.
+\newblock Springer, 2009.
+
+\bibitem[Geweke(1991)]{geweke1991efficient}
+J.~Geweke.
+\newblock Efficient simulation from the multivariate normal and student-t
+  distributions subject to linear constraints and the evaluation of constraint
+  probabilities, 1991.
+
+\bibitem[Gulzar and Copeland(2004)]{gulzar2004cd8}
+N.~Gulzar and K.~F. Copeland.
+\newblock Cd8+ t-cells: function and response to hiv infection.
+\newblock \emph{Current HIV research}, 2\penalty0 (1):\penalty0 23--37, 2004.
+
+\bibitem[G{\"u}nthard et~al.(2014)G{\"u}nthard, Aberg, Eron, Hoy, Telenti,
+  Benson, Burger, Cahn, Gallant, Glesby, et~al.]{huldrych_antiretroviralrecomm}
+H.~F. G{\"u}nthard, J.~A. Aberg, J.~J. Eron, J.~F. Hoy, A.~Telenti, C.~A.
+  Benson, D.~M. Burger, P.~Cahn, J.~E. Gallant, M.~J. Glesby, et~al.
+\newblock Antiretroviral treatment of adult hiv infection: 2014 recommendations
+  of the international antiviral society--usa panel.
+\newblock \emph{Jama}, 312\penalty0 (4):\penalty0 410--425, 2014.
+
+\bibitem[G{\"u}nthard et~al.(2018)G{\"u}nthard, Calvez, Paredes, Pillay,
+  Shafer, Wensing, Jacobsen, and Richman]{gunthard2018human}
+H.~F. G{\"u}nthard, V.~Calvez, R.~Paredes, D.~Pillay, R.~W. Shafer, A.~M.
+  Wensing, D.~M. Jacobsen, and D.~D. Richman.
+\newblock Human immunodeficiency virus drug resistance: 2018 recommendations of
+  the international antiviral society--usa panel.
+\newblock \emph{Clinical Infectious Diseases}, 2018.
+
+\bibitem[Gupta and Nagar(2018)]{gupta2018matrix}
+A.~K. Gupta and D.~K. Nagar.
+\newblock \emph{Matrix variate distributions}.
+\newblock Chapman and Hall/CRC, 2018.
+
+\bibitem[Hastie et~al.(2015)Hastie, Tibshirani, and
+  Wainwright]{hastie2015statistical}
+T.~Hastie, R.~Tibshirani, and M.~Wainwright.
+\newblock \emph{Statistical learning with sparsity: the lasso and
+  generalizations}.
+\newblock CRC press, 2015.
+
+\bibitem[Hastings(1970)]{hastings1970monte}
+W.~K. Hastings.
+\newblock Monte carlo sampling methods using markov chains and their
+  applications.
+\newblock 1970.
+
+\bibitem[Hoff(2009)]{hoff2009first}
+P.~D. Hoff.
+\newblock \emph{A first course in Bayesian statistical methods}.
+\newblock Springer Science \& Business Media, 2009.
+
+\bibitem[Hoff et~al.(2007)]{2007extending}
+P.~D. Hoff et~al.
+\newblock Extending the rank likelihood for semiparametric copula estimation.
+\newblock \emph{The Annals of Applied Statistics}, 1\penalty0 (1):\penalty0
+  265--283, 2007.
+
+\bibitem[H{\"o}rmann and Leydold(2014)]{hormann2014generating}
+W.~H{\"o}rmann and J.~Leydold.
+\newblock Generating generalized inverse gaussian random variates.
+\newblock \emph{Statistics and Computing}, 24\penalty0 (4):\penalty0 547--557,
+  2014.
+
+\bibitem[Huldrych et~al.()Huldrych, Beerenwinkel, Jasmina, Bonhoeffer, Fellay,
+  Kouyos, Metzner, and Roth]{HIVX}
+G.~Huldrych, N.~Beerenwinkel, B.~Jasmina, S.~Bonhoeffer, J.~Fellay, R.~Kouyos,
+  K.~Metzner, and V.~Roth.
+\newblock The {HIV-X MRD Project}.
+\newblock URL
+  \url{http://www.systemsx.ch/projects/medical-research-and-development-projects/hiv-x/}.
+
+\bibitem[Jones et~al.(2001--)Jones, Oliphant, Peterson, et~al.]{scipy}
+E.~Jones, T.~Oliphant, P.~Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--.
+\newblock URL \url{http://www.scipy.org/}.
+
+\bibitem[Kaufmann(2017)]{kaufmann2017semi}
+D.~Kaufmann.
+\newblock \emph{Semi-parametric Gaussian copula models for machine learning}.
+\newblock PhD thesis, University\_of\_Basel, 2017.
+
+\bibitem[Kaufmann et~al.(2016)Kaufmann, Parbhoo, Wieczorek, Keller, Adametz,
+  and Roth]{kaufmann_bayesian_2015}
+D.~Kaufmann, S.~Parbhoo, A.~Wieczorek, S.~Keller, D.~Adametz, and V.~Roth.
+\newblock Bayesian markov blanket estimation.
+\newblock In \emph{Artificial Intelligence and Statistics}, pages 333--341,
+  2016.
+
+\bibitem[Kirkpatrick et~al.(1983)Kirkpatrick, Gelatt, and
+  Vecchi]{kirkpatrick1983optimization}
+S.~Kirkpatrick, C.~D. Gelatt, and M.~P. Vecchi.
+\newblock Optimization by simulated annealing.
+\newblock \emph{science}, 220\penalty0 (4598):\penalty0 671--680, 1983.
+
+\bibitem[Krantz et~al.(2011)Krantz, Hullsiek, Okulicz, Weintrob, Agan,
+  Crum-Cianflone, Ganesan, Ferguson, Hale, Group, et~al.]{krantz2011elevated}
+E.~M. Krantz, K.~H. Hullsiek, J.~F. Okulicz, A.~C. Weintrob, B.~K. Agan, N.~F.
+  Crum-Cianflone, A.~Ganesan, T.~M. Ferguson, B.~R. Hale, I.~D. C. R. P. H.~W.
+  Group, et~al.
+\newblock Elevated cd8 counts during haart are associated with hiv virologic
+  treatment failure.
+\newblock \emph{Journal of acquired immune deficiency syndromes (1999)},
+  57\penalty0 (5):\penalty0 396, 2011.
+
+\bibitem[Lauritzen(1996)]{lauritzen1996graphical}
+S.~L. Lauritzen.
+\newblock \emph{Graphical models}, volume~17.
+\newblock Clarendon Press, 1996.
+
+\bibitem[Lee et~al.(2006)Lee, Kieffer, Siliciano, and Nettles]{lee2006hiv}
+P.~K. Lee, T.~L. Kieffer, R.~F. Siliciano, and R.~E. Nettles.
+\newblock Hiv-1 viral load blips are of limited clinical significance.
+\newblock \emph{Journal of Antimicrobial Chemotherapy}, 57\penalty0
+  (5):\penalty0 803--805, 2006.
+
+\bibitem[Lehner(1989)]{lehner1989erzeugung}
+K.~Lehner.
+\newblock \emph{Erzeugung von Zufallszahlen f{\"u}r zwei exotische stetige
+  Verteilungen}.
+\newblock na, 1989.
+
+\bibitem[Letac and Seshadri(1983)]{letac1983characterization}
+G.~Letac and V.~Seshadri.
+\newblock A characterization of the generalized inverse gaussian distribution
+  by continued fractions.
+\newblock \emph{Zeitschrift f{\"u}r Wahrscheinlichkeitstheorie und verwandte
+  Gebiete}, 62\penalty0 (4):\penalty0 485--489, 1983.
+
+\bibitem[Lu et~al.(2015)Lu, Mehraj, Vyboh, Cao, Li, and Routy]{lu2015cd4}
+W.~Lu, V.~Mehraj, K.~Vyboh, W.~Cao, T.~Li, and J.-P. Routy.
+\newblock Cd4: Cd8 ratio as a frontier marker for clinical outcome, immune
+  dysfunction and viral reservoir size in virologically suppressed hiv-positive
+  patients.
+\newblock \emph{Journal of the International AIDS Society}, 18\penalty0
+  (1):\penalty0 20052, 2015.
+
+\bibitem[Martinez et~al.(2005)Martinez, Marcelin, Morini, Deleuze, Krivine,
+  Gorin, Yerly, Perrin, Peytavin, Calvez, et~al.]{martinez2005hiv}
+V.~Martinez, A.-G. Marcelin, J.-P. Morini, J.~Deleuze, A.~Krivine, I.~Gorin,
+  S.~Yerly, L.~Perrin, G.~Peytavin, V.~Calvez, et~al.
+\newblock Hiv-1 intermittent viraemia in patients treated by non-nucleoside
+  reverse transcriptase inhibitor-based regimen.
+\newblock \emph{Aids}, 19\penalty0 (10):\penalty0 1065--1069, 2005.
+
+\bibitem[Metropolis et~al.(1953)Metropolis, Rosenbluth, Rosenbluth, Teller, and
+  Teller]{metropolis1953equation}
+N.~Metropolis, A.~W. Rosenbluth, M.~N. Rosenbluth, A.~H. Teller, and E.~Teller.
+\newblock Equation of state calculations by fast computing machines.
+\newblock \emph{The journal of chemical physics}, 21\penalty0 (6):\penalty0
+  1087--1092, 1953.
+
+\bibitem[Murphy(2013)]{Murphy2013Machine}
+K.~P. Murphy.
+\newblock \emph{Machine learning : a probabilistic perspective}.
+\newblock MIT Press, 1 edition, Aug. 2013.
+\newblock ISBN 0262018020.
+\newblock URL
+  \url{http://www.amazon.com/exec/obidos/redirect?tag=citeulike07-20\&path=ASIN/0262018020}.
+
+\bibitem[Nadarajah et~al.(2018)Nadarajah, Afuecheta, and
+  Chan]{nadarajah2018compendium}
+S.~Nadarajah, E.~Afuecheta, and S.~Chan.
+\newblock A compendium of copulas.
+\newblock \emph{Statistica}, 77\penalty0 (4):\penalty0 279--328, 2018.
+
+\bibitem[No{\"e} et~al.(2005)No{\"e}, Plum, and Verhofstede]{noe2005latent}
+A.~No{\"e}, J.~Plum, and C.~Verhofstede.
+\newblock The latent hiv-1 reservoir in patients undergoing haart: an archive
+  of pre-haart drug resistance.
+\newblock \emph{Journal of Antimicrobial Chemotherapy}, 55\penalty0
+  (4):\penalty0 410--412, 2005.
+
+\bibitem[Park and Casella(2008)]{park2008bayesian}
+T.~Park and G.~Casella.
+\newblock The bayesian lasso.
+\newblock \emph{Journal of the American Statistical Association}, 103\penalty0
+  (482):\penalty0 681--686, 2008.
+
+\bibitem[Prabhakaran et~al.(2014)Prabhakaran, Rey, Zagordi, Beerenwinkel, and
+  Roth]{prabhakaran2014hiv}
+S.~Prabhakaran, M.~Rey, O.~Zagordi, N.~Beerenwinkel, and V.~Roth.
+\newblock Hiv haplotype inference using a propagating dirichlet process mixture
+  model.
+\newblock \emph{IEEE/ACM transactions on computational biology and
+  bioinformatics}, 11\penalty0 (1):\penalty0 182--191, 2014.
+
+\bibitem[Price(1972)]{price1972extension}
+G.~R. Price.
+\newblock Extension of covariance selection mathematics.
+\newblock \emph{Annals of human genetics}, 35\penalty0 (4):\penalty0 485--490,
+  1972.
+
+\bibitem[Raman and Roth(2012)]{raman2012sparse}
+S.~Raman and V.~Roth.
+\newblock Sparse {Point} {Estimation} for {Bayesian} {Regression} via
+  {Simulated} {Annealing}.
+\newblock In A.~Pinz, T.~Pock, H.~Bischof, and F.~Leberl, editors,
+  \emph{Pattern {Recognition}}, pages 317--326, Berlin, Heidelberg, 2012.
+  Springer Berlin Heidelberg.
+\newblock ISBN 978-3-642-32717-9.
+
+\bibitem[Rey and Roth(2012)]{rey2012meta}
+M.~Rey and V.~Roth.
+\newblock Meta-gaussian information bottleneck.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  1916--1924, 2012.
+
+\bibitem[Roederer et~al.(1995)Roederer, Dubs, Anderson, Raju, and
+  Herzenberg]{roederer1995cd8}
+M.~Roederer, J.~G. Dubs, M.~T. Anderson, P.~A. Raju, and L.~A. Herzenberg.
+\newblock Cd8 naive t cell counts decrease progressively in hiv-infected
+  adults.
+\newblock \emph{The Journal of clinical investigation}, 95\penalty0
+  (5):\penalty0 2061--2066, 1995.
+
+\bibitem[Scott(1991)]{scott1991feasibility}
+D.~W. Scott.
+\newblock Feasibility of multivariate density estimates.
+\newblock \emph{Biometrika}, 78\penalty0 (1):\penalty0 197--205, 1991.
+
+\bibitem[Shafer(2002)]{shafer2002genotypic}
+R.~W. Shafer.
+\newblock Genotypic testing for human immunodeficiency virus type 1 drug
+  resistance.
+\newblock \emph{Clinical microbiology reviews}, 15\penalty0 (2):\penalty0
+  247--277, 2002.
+
+\bibitem[Shafer(2017)]{shafer2017human}
+R.~W. Shafer.
+\newblock Human immunodeficiency virus type 1 drug resistance mutations update.
+\newblock \emph{The Journal of infectious diseases}, 216\penalty0
+  (suppl\_9):\penalty0 S843--S846, 2017.
+
+\bibitem[SHCS et~al.(2010)SHCS, Schoeni-Affolter, Ledergerber, Rickenbach,
+  Rudin, Günthard, Telenti, Furrer, Yerly, and Francioli]{SHCS}
+T.~S. H. C.~S. SHCS, F.~Schoeni-Affolter, B.~Ledergerber, M.~Rickenbach,
+  C.~Rudin, H.~F. Günthard, A.~Telenti, H.~Furrer, S.~Yerly, and P.~Francioli.
+\newblock Cohort profile: The swiss hiv cohort study.
+\newblock \emph{International Journal of Epidemiology}, 39\penalty0
+  (5):\penalty0 1179--1189, 2010.
+\newblock \doi{10.1093/ije/dyp321}.
+\newblock URL \url{http://dx.doi.org/10.1093/ije/dyp321}.
+
+\bibitem[Sklar(1959)]{sklar1959fonctions}
+M.~Sklar.
+\newblock Fonctions de repartition an dimensions et leurs marges.
+\newblock \emph{Publ. inst. statist. univ. Paris}, 8:\penalty0 229--231, 1959.
+
+\bibitem[Stone(1980)]{stone1980optimal}
+C.~J. Stone.
+\newblock Optimal rates of convergence for nonparametric estimators.
+\newblock \emph{The annals of Statistics}, pages 1348--1360, 1980.
+
+\bibitem[Strain et~al.(2013)Strain, Lada, Luong, Rought, Gianella, Terry,
+  Spina, Woelk, and Richman]{strain2013highly}
+M.~C. Strain, S.~M. Lada, T.~Luong, S.~E. Rought, S.~Gianella, V.~H. Terry,
+  C.~A. Spina, C.~H. Woelk, and D.~D. Richman.
+\newblock Highly precise measurement of hiv dna by droplet digital pcr.
+\newblock \emph{PloS one}, 8\penalty0 (4):\penalty0 e55943, 2013.
+
+\bibitem[Stuart et~al.(2001)Stuart, Wensing, Kovacs, Righart, de~Jong, Kaye,
+  Schuurman, Visser, and Boucher]{stuart2001transient}
+J.~Stuart, A.~M. Wensing, C.~Kovacs, M.~Righart, D.~de~Jong, S.~Kaye,
+  R.~Schuurman, C.~J. Visser, and C.~A. Boucher.
+\newblock Transient relapses (" blips") of plasma hiv rna levels during haart
+  are associated with drug resistance.
+\newblock \emph{JAIDS-HAGERSTOWN MD-}, 28\penalty0 (2):\penalty0 105--113,
+  2001.
+
+\bibitem[Tibshirani(1996)]{tibshirani1996regression}
+R.~Tibshirani.
+\newblock Regression shrinkage and selection via the lasso.
+\newblock \emph{Journal of the Royal Statistical Society. Series B
+  (Methodological)}, pages 267--288, 1996.
+
+\bibitem[Wainberg and Friedland(1998)]{wainberg1998public}
+M.~A. Wainberg and G.~Friedland.
+\newblock Public health implications of antiretroviral therapy and hiv drug
+  resistance.
+\newblock \emph{Jama}, 279\penalty0 (24):\penalty0 1977--1983, 1998.
+
+\bibitem[Wang(2012)]{wang_bayesian_2012}
+H.~Wang.
+\newblock Bayesian {Graphical} {Lasso} {Models} and {Efficient} {Posterior}
+  {Computation}.
+\newblock \emph{Bayesian Analysis}, 7\penalty0 (4):\penalty0 867--886, Dec.
+  2012.
+\newblock ISSN 1936-0975, 1931-6690.
+\newblock \doi{10.1214/12-BA729}.
+\newblock URL \url{https://projecteuclid.org/euclid.ba/1354024465}.
+
+\bibitem[West(1987)]{west_scale_1987}
+M.~West.
+\newblock On {Scale} {Mixtures} of {Normal} {Distributions}.
+\newblock \emph{Biometrika}, 74\penalty0 (3):\penalty0 646, Sept. 1987.
+\newblock ISSN 00063444.
+\newblock \doi{10.2307/2336707}.
+\newblock URL \url{http://www.jstor.org/stable/2336707?origin=crossref}.
+
+\bibitem[Yuan et~al.(2004)Yuan, Lu, and Druzdzel]{yuan2004annealed}
+C.~Yuan, T.-C. Lu, and M.~J. Druzdzel.
+\newblock Annealed map.
+\newblock In \emph{Proceedings of the 20th conference on Uncertainty in
+  artificial intelligence}, pages 628--635. AUAI Press, 2004.
+
+\end{thebibliography}

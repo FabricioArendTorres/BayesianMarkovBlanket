@@ -1,0 +1,43 @@
+\chapter{Conclusion and Future Work}
+In this work we have introduced Simulated Annealing as an alternative estimation procedure for the Markov Blanket.
+While the Annealing MAP did not result in performance competitive to the GLASSO, it was shown to be comparable to the previous approach by \cite{kaufmann_bayesian_2015}.
+In addition, SA has proven to be more robust in its application on the HIV-X data set by allowing for a smoother process of network selection, while the BMB gave unexpected problems.
+The feasible $\lambda$ region of the BMB lies closely to the region subject to convergence problems of the Markov chains, thus making the inferred networks less certain.
+In the test data however, SA had the disadvantage of an upper limit on the sparsity, presumably due to numerical instability.
+We assume that this instability mainly stems from the MGIG distributed $\Wxx$ posterior conditional. 
+
+In applications of both models, we could identify multi-modality of the posterior marginal of $\Wxy$ for small $\lambda$, while posterior marginals for higher $\lambda$ seem to be unimodal.
+This is also reflected in the Annealing behavior, as the sampler starts fluctuating between multiple modes when in the corresponding $\lambda$ region.
+
+Finally, the application on the HIV-X dataset indicated that the GRT mutations may not have a significant effect on the clinical factors in comparison to the haplotype mutations. However, it is unclear whether the seemingly non-normal distributions of the latent values for the GRT mutations influenced this result.
+ Although we could identify some connections in the networks that are agreeable with known results, a lot of edges express counter-intuitive partial correlations.
+For example, multiple resistance relevant mutations are negatively correlated with the ddPCR HIV cell count.
+
+
+\section*{Future Work}
+One of the main shortcomings of the model underlying the BMB is the reliance on the MGIG distribution.
+In general, the MGIG proves to be difficult both in theory and practice due to the suboptimal methods available for sampling from it.
+Thus future work could be focused on finding an different sampling method.
+A possible alternative for directly sampling the MGIG would be substituting the draw of the MGIG with a draw from the $\Wxx$ marginal $P(\Wxx|\matr{T}, \matr{S}, \lambda)$.
+While the marginal does not offer a closed form solution in terms of a known distribution, we can use a Metropolis Hastings sampler.
+Due to the similarity, we would suggest the Wishart arising from the special case of $P(\Wxx|\matr{T}, \matr{S}, \lambda)$ for $\matr{D}\rightarrow\matr{0}$ (see \autoref{ss:postmarginal}) as proposal function.
+The difference between the special case and the general case of the marginal posterior lies in the determinant:
+$$\det
+\Big(
+(\matr{S}_{22} + \matr{I}) \otimes \matr{W}_{11}^{-1} +\matr{D}
+\Big)$$
+We know that $A=((\matr{S}_{22} + \matr{I}) \otimes \matr{W}_{11}^{-1})$ is symmetric and positive definite (so all eigenvalues of $A$ are positive), and $\matr{D}$ is a diagonal matrix with positive entries.
+With $\det(A)=\prod_{i}\lambda_i$ and $tr(A) = \sum_i \lambda_i$ it's clear to see
+that
+$$\det\Big((\matr{S}_{22} + \matr{I}) \otimes \matr{W}_{11}^{-1} + \matr{D}\Big) > \det\Big((\matr{S}_{22} + \matr{I}) \otimes \matr{W}_{11}^{-1}\Big)
+$$
+As only the normalization differs, we assume that the general case of the posterior marginal is a flatter version of the special case.
+Additionally, $\matr{D}$ tends to be quite small in practice, so the special case should serve as a good proposal function with a high acceptance rate.
+\\\\
+Another interesting point would be adjusting the synthetic data to a more general setting.
+We have seen that the usability of the Annealing approach played a big role for the application on real data.
+However, the cause of this difference compared to the BMB is unclear, as the tests on artificial data did not indicate similar problems.
+While the artificial data does reflect the small world property of real problems, the already normally distributed data presumably obsoletes the semi-parametric copula.
+In contrast, many realistic use cases with mixed data rely on the copula transformation,
+which should motivate the use of a more appropriate data set.
+Because of this, we would suggest comparing the BMB and the Annealing on unbalanced and sparse data (similar to the mutations) that still exhibits small world properties.

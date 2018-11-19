@@ -1,0 +1,21 @@
+graph G {
+    a -- b
+    c -- a
+    a -- d
+    a -- f
+    c -- b
+    c -- g
+    b -- g
+    b -- h
+    h -- i
+    e -- a
+    a[shape=circle,style=filled,fillcolor=grey]
+    b[shape=circle,style=filled,fillcolor=deepskyblue1]
+    e[shape=circle,style=filled,fillcolor=deepskyblue1]
+    f[shape=circle,style=filled,fillcolor=deepskyblue1]
+    d[shape=circle,style=filled,fillcolor=deepskyblue1]
+    c[shape=circle,style=filled,fillcolor=deepskyblue1]
+    g[shape=circle]
+    h[shape=circle]
+    i[shape=circle]
+}

@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+The style file: abbrvnat.bst
+Database file #1: thesis.bib
+Warning--there's a number but no volume in geman1984stochastic
+Warning--empty journal in hastings1970monte
+Warning--empty year in HIVX
+You've used 65 entries,
+            2773 wiz_defined-function locations,
+            1018 strings with 17613 characters,
+and the built_in function-call counts, 33398 in all, are:
+= -- 2983
+> -- 2065
+< -- 48
++ -- 705
+- -- 640
+* -- 2817
+:= -- 5147
+add.period$ -- 218
+call.type$ -- 65
+change.case$ -- 393
+chr.to.int$ -- 65
+cite$ -- 133
+duplicate$ -- 1421
+empty$ -- 2602
+format.name$ -- 730
+if$ -- 6955
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 69
+newline$ -- 352
+num.names$ -- 262
+pop$ -- 776
+preamble$ -- 1
+purify$ -- 336
+quote$ -- 0
+skip$ -- 1127
+stack$ -- 0
+substring$ -- 1439
+swap$ -- 170
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 675
+warning$ -- 3
+while$ -- 303
+width$ -- 0
+write$ -- 884
+(There were 3 warnings)

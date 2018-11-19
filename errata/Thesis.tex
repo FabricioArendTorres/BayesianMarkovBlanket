@@ -1,0 +1,160 @@
+%% ----------------------------------------------------------------
+%% Thesis.tex -- main
+%% ---------------------------------------------------------------- 
+
+\documentclass[a4paper, 10pt, oneside]{memoir}
+\usepackage{basilea}
+
+% custom macros
+\newcommand{\W}{\matr{W}}
+\newcommand{\Wxx}{\matr{W}_{11}}
+\newcommand{\Wxy}{\matr{W}_{12}}
+\newcommand{\Wyx}{\matr{W}_{21}}
+\newcommand{\Wyy}{\matr{W}_{22}}
+\newcommand{\Wyys}{\matr{W}_{22.1}}
+
+\newcommand{\Sxx}{\matr{S}_{11}}
+\newcommand{\Sxy}{\matr{S}_{12}}
+\newcommand{\Syx}{\matr{S}_{21}}
+\newcommand{\Syy}{\matr{S}_{22}}
+\newcommand{\Syys}{\matr{S}_{22.1}}
+\newcommand{\Sxxs}{\matr{S}_{11.2}}
+\newcommand{\bigCI}{\mathrel{\text{\scalebox{1.07}{$\perp\mkern-10mu\perp$}}}}
+\newcommand*\dif{\mathop{}\!\mathrm{d}}
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+\newcommand{\Tc}{T_{c}}
+
+\algnewcommand{\LeftComment}[1]{\Statex \(\triangleright\) #1}
+
+\newcommand\xdownarrow[1][2ex]{%
+	\mathrel{\rotatebox{90}{$\xleftarrow{\rule{#1}{0pt}}$}}
+}
+
+\newcommand\xuparrow[1][2ex]{%
+	\mathrel{\rotatebox{90}{$\xrightarrow{\rule{#1}{0pt}}$}}
+}
+
+\newcommand{\matr}[1]{\mathbf{#1}}
+\DeclareMathOperator{\tr}{tr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
+\algtext*{Indent}
+\algtext*{EndIndent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{break}
+{\topsep}{\topsep}%
+{\itshape}{}%
+{\bfseries}{}%
+{\newline}{}%
+\theoremstyle{break}
+
+\newtheorem{innercustomlemma}{Lemma}
+\newenvironment{customlemma}[1]
+{\renewcommand\theinnercustomlemma{#1}\innercustomlemma}
+{\endinnercustomlemma}
+%\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+
+
+\newtheorem{innercustomthm}{Theorem}
+\newenvironment{customthm}[1]
+{\renewcommand\theinnercustomthm{#1}\innercustomthm}
+{\endinnercustomthm}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}%
+
+
+%% ----------------------------------------------------------------
+
+\title				{Sampling and Annealing for Dependency Subnetwork Estimation}
+\thesistype			{Post-Handin Fixed Version of the Master Thesis}
+
+\department 		    {Department of Mathematics and Computer Science}
+\faculty			{Natural Science Faculty of the University of Basel}
+\research		    {Biomedical Data Analysis \\ \url{http://bmda.dmi.unibas.ch/}}
+
+\examiner    		{Prof. Dr. Volker Roth}
+\secondexaminer		{Sonali Parbhoo}
+\supervisor  		{Mario Wieser, Sonali Parbhoo}
+
+\authors     		{Fabricio Arend Torres}
+\email				{fabricio.arendtorres@unibas.ch}
+\immatriculnr		{2012-051-934}
+
+\date				{Last Change: 19th November 2018}
+
+% switch here for the german logo to logo-de
+\ulogo				{Template/logo-en} 
+
+\makeglossaries
+\newacronym{BMB}{BMB}{Bayesian Markov Blanket}
+\newacronym{MB}{MB}{Markov Blanket}
+\newacronym{SA}{SA}{Simulated Annealing}
+\newacronym{pdf}{pdf}{probability density function}
+\newacronym{cdf}{cdf}{cumulative distribution function}
+\newacronym{GGM}{GGM}{Gaussian Graphical Model}
+\newacronym{MCMC}{MCMC}{Markov Chain Monte Carlo}
+\newacronym{MAP}{MAP}{maximum a posteriori probability}
+\newacronym{MH}{MH}{Metropolis Hastings}
+\newacronym{MLE}{MLE}{Maximum Likelihood Estimation }
+\newacronym{DE}{DE}{double exponential}
+\newacronym{MGIG}{MGIG}{Matrix Generalized Inverse Gaussian}
+\newacronym{CI}{CI}{Credible Interval}
+\newacronym{GIG}{GIG}{Generalized Inverse Gaussian}
+\newacronym{IG}{IG}{Inverse Gaussian}
+\newacronym{PCA}{PCA}{Principal Component Analysis}
+\newacronym{AIDS}{AIDS}{Acquired Immunodeficiency Syndrome}
+\newacronym{HIV}{HIV}{Human Immunodeficiency Virus}
+\newacronym{ART}{ART}{Antiretroviral Therapy}
+\newacronym{ddPCR}{ddPCR}{droplet digital PCR}
+\newacronym{GRT}{GRT}{Genotypic (Antiretroviral) Resistance Testing}
+\newacronym{NGS}{NGS}{Next Generation Sequencing}
+\newacronym{KDE}{KDE}{Kernel Density Estimation}
+\newacronym{D4T}{D4T}{stavudine}
+\newacronym{WHO}{WHO}{World Health Organization}
+\newacronym{NRTI}{NRTI}{nucleoside reverse transcriptase inhibitor}
+\newacronym{PI}{PI}{Protease Inhibitor}
+%% ----------------------------------------------------------------
+\begin{document}
+
+% for english use \selectlanguage{english}, for german use \selectlanguage{ngerman}
+\selectlanguage{english}
+
+\thesisfront
+\maketitle
+\pagestyle{thesis}
+
+%% ----------------------------------------------------------------
+\input{./Front/errataNote}
+%% ----------------------------------------------------------------
+\input{./Front/Acknowledgment}
+%% ----------------------------------------------------------------
+\input{./Front/Abstract}
+\printglossaries
+
+\thesistoc
+%% ----------------------------------------------------------------
+%\thesisnomencl
+%% ----------------------------------------------------------------
+\thesismain
+\input{./Chapters/Chapter1}
+\input{./Chapters/Chapter2}
+\input{./Chapters/Chapter3}
+\input{./Chapters/Chapter4}
+\input{./Chapters/Chapter5}
+\input{./Chapters/Chapter6}
+%\input{./Chapters/Chapter7}
+%% ----------------------------------------------------------------
+\thesisappendix
+\thesisbib
+\begin{appendices}
+	\input{./Back/AppendixA} 
+\end{appendices}
+%% ----------------------------------------------------------------
+\thesisback
+\input{./Back/DeclarationOfAuthorship}
+%% ----------------------------------------------------------------
+\end{document}
+%% ----------------------------------------------------------------
